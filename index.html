@@ -3,93 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games Shop - A sua loja de games</title>
+    <title>Red Dead Redemption 2</title>
     <link rel="stylesheet" href="./main.css">
-
+    <link rel="icon" type="image    " href ="./images/logo-web.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Games Shop</h1>
+        <div class="logo">
+            <a>
+                <img src="./images/logordr.png" alt="Logo Red Dead Redemption 2"/>
+            </a>
             <nav>
-            <ul>
-                <li>
-                    <a href="#about">Sobre a loja</a>
-                </li>
-                <li>
-                    <a href="#contact">Contato</a>
-                </li>    
-            </ul>
-        </nav>
+                <ul>
+                    <li>
+                        <a href="historia">História</a>
+                    </li>
+                    <li>
+                        <a href="#online">Online</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <section id="about">
+    <section id="historia">
         <div class="container">
-            <img class="star-front" src="./images/loja.jpg" alt="Fachada da loja Games Shop">
+            <img src="./images/arthur.jpg" alt="Arthur Morgan" />
             <div>
-                <h2>Sobre a loja</h2>
-                <p>Games Shop é uma loja dedicada aos apaixonados por jogos, proporcionando uma experiência única no universo dos videogames. Em nosso espaço vibrante e acolhedor, oferecemos uma ampla variedade de títulos, desde os clássicos atemporais até os lançamentos mais recentes. Com uma equipe dedicada de entusiastas, estamos prontos para orientar e compartilhar nossos conhecimentos, garantindo que cada cliente encontre exatamente o que procura.</p>
-                <p>Na Games Shop, não se trata apenas de vender jogos, mas de construir uma comunidade apaixonada em torno do mundo dos games. Organizamos eventos, competições e lançamentos exclusivos para manter a chama da paixão pelos videogames acesa. Nossa missão é transformar cada visita em uma jornada emocionante, onde os clientes não apenas adquirem jogos, mas também fazem parte de uma comunidade que celebra a diversidade e a emoção dos universos virtuais.</p>
-                <ul class="brands-list">
-                    <li><img src="./images/nintendo.png" alt="Nintendo"></li>
-                    <li><img src="./images/xbox.png" alt="Xbox"></li>
-                    <li><img src="./images/playstation.png" alt="Playstation"></li>
-                </ul>
+                <i><h1>História</h1></i>
+                <p>
+                    A história se passa no ano de 1899, no final do Velho Oeste americano. O protagonista é Arthur Morgan, um fora-da-lei e membro da gangue de Van der Linde, liderada por Dutch van der Linde.
+                </p>
+                <p>
+                    A trama segue a gangue enquanto eles enfrentam dificuldades durante o declínio da era dos foras-da-lei, com a pressão das autoridades e mudanças na sociedade. Arthur, leal a Dutch, começa a questionar os métodos da gangue à medida que a situação se complica.
+                </p>
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="online">
         <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Fale Conosco</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome" required/>
-                        <input type="email" placeholder="Seu e-mail" required/>
-                        <input type="tel" placeholder="Seu telefone (opcional)"/>
-                        <textarea placeholder="Sua mensagem" required></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Nos acompanhe</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="#" title="Siga-nos no Instagram">
-                                <img src="./images/instagram.png" alt="Logo do instagram" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="./images/facebook.png" alt="Logo do facebook" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Inscreva-se">
-                                <img src="./images/youtube.png" alt="Logo do youtube" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Venha até nós</h3>
-                    <p>
-                        Avenida 9 de julho nº300, Anhangabáu - Jundiaí - SP
-                    </p>
-                </div>
+            <div>
+                <i><h1>Online</h1></i>
+                <p>
+                    Trilhe seu próprio caminho enquanto enfrenta autoridades, gangues fora da lei e animais selvagens ferozes para construir uma vida na fronteira dos Estados Unidos. Monte um acampamento, cavalgue com ou sem um Bando e explore tudo, das montanhas nevadas no norte aos pântanos do sul, de postos avançados remotos a fazendas agitadas e cidades vibrantes.
+                </p><br>
+                <p>
+                    Junte-se a milhões de jogadores no oeste dos Estados Unidos para mergulhar num mundo agora repleto de recursos, conteúdos e melhorias.
+                </p>
+            </div>
+            <img src="./images/rdronline.jpg" alt="Red Dead Online" />
+        </div>
+    </section>
+    <section id="criar-conta">
+        <div class="container">
+            <h1>Criar Conta</h1>
+            <div class="formulario">
+                <form>
+                <input type="text" placeholder="Apelido" />
+                <input type="email" placeholder="Seu email" />
+                <input type="password" placeholder="Senha" />
+                <button type="submit">Criar</button>
+                </form>
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="rodape">
         <div class="container">
             <p>
-                &copy; Gabriel Pompeu - Todos os direitos reservados - 2024
+                &copy Rockstar - Todos os direitos reservados - 2024
+                <small> - Desenvolvido por Gabriel Pompeu</small>
             </p>
+            <div class="contato">
+                <a href="https://www.instagram.com/rockstargames/" target="_blank" title="Siga-nos no Instagram">
+                    <img id="insta" src="./images/insta.png" alt="Logo instagram " width="37" height="35"> 
+                </a>
+                <a href="https://www.youtube.com/@RockstarGames" target="_blank" title="Inscreva-se">
+                    <img src="./images/youtube.png" alt="Logo youtube" width="50" height="50">
+                </a> 
+            </div>
         </div>
     </footer>
 </body>
-</html>     
+</html>
